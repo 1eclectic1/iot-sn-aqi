@@ -6,7 +6,7 @@
 #include "PMS.h"
 
 // Hardwired solder joints matching your S2 Mini clone photo
-#define TXpin 5   // Black Wire -> Sensor RX
+#define TXpin 33   // Black Wire -> Sensor RX
 #define RXpin 18  // Red Wire   -> Sensor TX
 
 PMS pms(Serial1);
